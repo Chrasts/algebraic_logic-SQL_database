@@ -33,6 +33,8 @@ Main entity groups:
 
 ## Repository Structure
 
+```text
+
 .
 ├── README.md
 ├── LICENSE
