@@ -29,6 +29,8 @@ Main entity groups:
 - **Algebraic Properties** – properties of algebraic classes
 - **Subclass Relations** – hierarchy between algebraic classes order by variety inclusion
 
+bridge and blok_pigozzi are separate tables because these links are expected to become first-class entities later (e.g., adding theorem/correspondence name, references, notes). The current data is 1–1, but the schema keeps room for relationship attributes without redesign.
+
 ---
 
 ## Repository Structure
