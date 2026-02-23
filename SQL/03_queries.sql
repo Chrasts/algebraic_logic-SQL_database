@@ -1,7 +1,4 @@
 -- Example analytical queries (MySQL 8.x)
--- Notes:
--- - Q1 intentionally combines Tasks 1–3 (list classes, list axioms, count axioms).
--- - Uses GROUP_CONCAT with numeric ordering by the suffix of id_axiom (e.g., a1, a2, ...).
 
 /* Q1: List algebraic classes (no id), include defining axioms (names) and how many define the class.
       Order by the number of defining axioms (descending). */
